@@ -11,11 +11,29 @@
     background-color: #0099FF;
   }
   body {
+    background-color: #CBC3E3;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     vertical-align: bottom;
     color: #505050;
   }
+use class=center */
+  .center {
+    margin: auto;
+    width: 65%;
+    padding: 10px;
+  }
+/* This code would center the content horizontally AND vertically */
+/* You can try commenting out the above "center" code and un-commenting the below code to see the difference */
+/*   .center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  } */
+</style>
+
   hr{
     padding: 0px;
     margin: 0px;    
